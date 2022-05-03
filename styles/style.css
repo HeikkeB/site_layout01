@@ -1,0 +1,186 @@
+.page {
+    display: flex;
+    min-width: 1445px;
+    max-height: 4759px;
+    margin: 0;
+    justify-content: center;
+}
+
+.header {
+    height: 786px;
+    border: 1px solid red;
+    justify-content: center;
+    display: flex;
+    min-width: 1445px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.header__home {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 17.44%;
+    right: 79.15%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* Black */
+    color: #070707;
+    text-decoration: none;
+}
+
+.header__aboutMe {
+    position: absolute;
+    left: 31.62%;
+    right: 62.68%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.header__skills {
+    position: absolute;
+    left: 48.09%;
+    right: 48.99%;
+    top: 0.69%;
+    bottom: 98.82%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.header__portfolio {
+    position: absolute;
+    left: 61.71%;
+    right: 33.29%;
+    top: 0.67%;
+    bottom: 99.03%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #828282;
+    text-decoration: none;
+}
+
+.header__contacts {
+    position: absolute;
+    left: 77.48%;
+    right: 17.16%;
+    top: 0.69%;
+    bottom: 98.82%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #828282;
+    text-decoration: none;
+}
+
+.header__border {
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    top: 87.94px;
+    background-color: #828282;
+    border: 1px solid #828282;
+}
+
+.header__title {
+    position: absolute;
+    left: 17.37%;
+    right: 74.08%;
+    top: 15%;
+    bottom: 94.82%;
+
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.header__subtitle {
+    position: absolute;
+    left: 46.49%;
+    right: 42.74%;
+    top: 20%;
+    bottom: 95.22%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.header__lang-selections {
+    position: absolute;
+    top: 20%;
+    right: 17.37%;
+
+    /*transform: rotate(-90deg);*/
+}
+
+.header__lang-select {
+    display: flex;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.header__image {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 250.69px;
+    top: 276.94px;
+}
+
+
+
+
+
+
+
+
+
+
+/*border: 1px solid red;*/
