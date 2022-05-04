@@ -8,7 +8,6 @@
 
 .header {
     height: 786px;
-    border: 1px solid red;
     justify-content: center;
     display: flex;
     min-width: 1445px;
@@ -175,7 +174,6 @@
 }
 
 .aboutMe {
-    border: 1px solid red;
     position: absolute;
     width: 1445px;
     height: 506px;
@@ -231,7 +229,6 @@
 }
 
 .skills {
-    border: 1px solid red;
     position: absolute;
     width: 1445px;
     height: 610px;
@@ -357,9 +354,8 @@
 .portfolio {
     display: flex;
     position: absolute;
-    border: 1px solid red;
     width: 1445px;
-    height: 2253px;
+    height: 2150px;
     justify-content: center;
     top: 1905px;
     background: #F6F6F6;
@@ -387,7 +383,7 @@
 
 .portfolio__link_fashion {
     position: absolute;
-    top: 32%;
+    top: 34%;
     text-decoration: none;
 }
 
@@ -411,7 +407,7 @@
 
 .portfolio__link_reebok {
     position: absolute;
-    top: 61%;
+    top: 64%;
     text-decoration: none;
 }
 
@@ -424,16 +420,15 @@
 
 .portfolio__link_braun {
     position: absolute;
-    top: 90%;
+    top: 94%;
     text-decoration: none;
 }
 
 .footer {
-    border: 1px solid red;
     position: absolute;
-    top: 4158px;
+    top: 4056px;
     width: 1445px;
-    background: #F6F6F6;
+    height: 622px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -447,7 +442,87 @@
     line-height: 42px;
     text-align: center;
     color: #070707;
-    border: 1px solid red;
+    margin-top: 114px;
+}
+
+.footer__subtitle {
+    margin: 20px auto 30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    /* Black */
+
+    color: #070707;
+}
+
+.footer_button {
+    background-color: #070707;
+    color: white;
+    border-radius: 21px;
+    width: 180px;
+    height: 42px;
+    transition-duration: 0.4s;
+    border: 1px solid #070707;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer_button:hover {
+    background-color: white;
+    color: #070707;
+}
+
+.footer__social_icon {
+    display: flex;
+    align-items: center;
+    width: 342px;
+    height: 40px;
+    margin: 86px auto 45px auto;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.social_icon_linkedIn {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+.social_icon_Instagram {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+.social_icon_Behance {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+.social_icon_dribble {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+.footer__subscription {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0;
+    color: #828282;
 }
 
 /*border: 1px solid red;*/
