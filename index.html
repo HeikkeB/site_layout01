@@ -11,17 +11,17 @@
 
 <body>
     <div class="page">
-        <header class="header">
-            <a class="header__home" href="#">
+        <header class="header" id="header_id">
+            <a class="header__home" href="#header_id">
                 <h2>Home</h2>
             </a>
-            <a class="header__aboutMe" href="#">
+            <a class="header__aboutMe" href="#aboutMe_id">
                 <h2>About me</h2>
             </a>
-            <a class="header__skills" href="#">
+            <a class="header__skills" href="#skills_id">
                 <h2>Skills</h2>
             </a>
-            <a class="header__portfolio" href="#">
+            <a class="header__portfolio" href="#portfolio_id">
                 <h2>Portfolio</h2>
             </a>
             <a class="header__contacts" href="#">
@@ -37,5 +37,104 @@
             </div>
             <img class="header__image" src="./bspp2266.png" alt="author">
         </header>
+
+        <section class="aboutMe" id="aboutMe_id">
+            <h2 class="aboutMe__title">About me</h2>
+            <ul class="table">
+                <li class="table__cell">
+                    <p class="table__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and
+                        everything connected with it.</p>
+                </li>
+                <li class="table__cell">
+                    <p class="table__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                </li>
+                <li class="table__cell">
+                    <p class="table__text">Ready to implement excellent projects with wonderful people.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills" id="skills_id">
+            <h2 class="skills__title">Skills</h2>
+            <h3 class="skills__subtitle">I work in such programs as</h3>
+
+            <ul class="program">
+                <li class="program__cell bg__ps">
+                    <p class="program__paragraph">Adobe<br>
+                        Photoshop</p>
+                    <div class="star__images">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star (1).png">
+                    </div>
+                </li>
+                <li class="program__cell bg__ai">
+                    <p class="program__paragraph">Adobe
+                        <br>
+                        Illustrator
+                    </p>
+                    <div class="star__images">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star (1).png">
+                        <img class="star__image" src="./images/Star (1).png">
+                    </div>
+                </li>
+                <li class="program__cell bg__ae">
+                    <p class="program__paragraph">Adobe
+                        <br>
+                        After Effects
+                    </p>
+                    <div class="star__images">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star (1).png">
+                    </div>
+                </li>
+                <li class="program__cell bg__figma">
+                    <p class="program__paragraph">Figma
+                    </p>
+                    <div class="star__images">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star.png">
+                        <img class="star__image" src="./images/Star (1).png">
+                    </div>>
+                </li>
+            </ul>
+        </section>
+
+        <section class="portfolio" id="portfolio_id">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <img class="portfolio__image_fashion" src="./images/portfolio_1.png" alt="Online fashion store">
+
+            <a class="portfolio__link_fashion" href="#">
+                <h3 class="portfolio__subscription_text">Online fashion store - Homepage</h3>
+            </a>
+
+            <img class="portfolio__image_reebok" src="./images/reebok_web.png" alt="reebok">
+
+            <a class="portfolio__link_reebok" href="#">
+                <h3 class="portfolio__subscription_text">Reebok Store</h3>
+            </a>
+
+            <img class="portfolio__image_braun" src="./images/braun.png" alt="braun">
+
+            <a class="portfolio__link_braun" href="#">
+                <h3 class="portfolio__subscription_text">Braun Landing Page</h3>
+            </a>
+        </section>
+
+        <footer class="footer">
+            <h2 class="footer__title">Contacts</h2>
+
+        </footer>
+
     </div>
 </body>
